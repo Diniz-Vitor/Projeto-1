@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #053d53;
+}
+
+.left{ 
+    width: 150vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:#07374b;
+}
+
+.left > h1 {color : #d6ff77;}
+img { max-width: 50% ;}
+
+
+.right {
+   width: 50vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:#1d7294;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #6ce78756;
+
+}
+
+.card > h1 {
+    color: #8eff77;
+    font-weight: 800;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: nome;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1d7294;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow:  0px 10px 40px #00000056;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > input::placeholder{
+    color  #f0ffff94;
+}
+
+input:focus{
+    border-color:  #f0ffff94;
+
+  }  
+    
+  .textfield > label{
+    color: #f0ffff94;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bnt-login{
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color:#053d53;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 
+    40px 12px #00008052;
+    
+    
+}
+.bnt-login:hover{
+    transition: background 1s ;
+    background: #e2eef3;
+}
+
